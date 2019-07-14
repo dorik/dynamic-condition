@@ -1,0 +1,22 @@
+{
+    "name": "dynamic-condition",
+    "version": "0.1.0",
+    "description": "Dynamically evaluate an array of conditions",
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.esm.js",
+    "browser": "dist/index.umd.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "rm -rf dist; rollup -c"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.5.4",
+        "@babel/preset-env": "^7.5.4",
+        "rollup": "^1.16.7",
+        "rollup-plugin-babel": "^4.3.3",
+        "rollup-plugin-uglify": "^6.0.2"
+    }
+}
