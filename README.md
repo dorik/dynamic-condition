@@ -4,7 +4,7 @@
 
 ## Quicky
 
-Check your array of conditions (JSON format):
+Check validity of an array of conditions (JSON format):
 
 ```js
 import condition from 'dynamic-condition'
@@ -18,4 +18,4 @@ if (condition(statement).matches) {
 ```
 
 
-#### More documentation coming soon...
+#### More detailed documentation coming soon...
