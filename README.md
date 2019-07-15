@@ -2,7 +2,7 @@
 
 `npm i -s dynamic-condition`
 
-## Quicky
+## Is it a doc?
 
 Check validity of an array of conditions (JSON format):
 
