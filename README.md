@@ -4,8 +4,6 @@
 
 ## Is it a doc?
 
-Check validity of an array of conditions (JSON format):
-
 ```js
 import condition from 'dynamic-condition'
 
