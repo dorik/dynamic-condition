@@ -6,7 +6,7 @@
     "module": "dist/index.esm.js",
     "browser": "dist/index.umd.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "jest",
         "build": "rm -rf dist; rollup -c"
     },
     "keywords": [],
@@ -15,6 +15,7 @@
     "devDependencies": {
         "@babel/core": "^7.5.4",
         "@babel/preset-env": "^7.5.4",
+        "jest": "^29.7.0",
         "rollup": "^1.16.7",
         "rollup-plugin-babel": "^4.3.3",
         "rollup-plugin-uglify": "^6.0.2"
